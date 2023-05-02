@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-sqlalchemy-pytest"
+version = "0.1.0"
+description = "Study fastapi-sqlalchemy-pytest
+https://praciano.com.br/fastapi-and-async-sqlalchemy-20-with-pytest-done-right.html"
+authors = ["Sergey <sa6702@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_sqlalchemy_pytest"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
